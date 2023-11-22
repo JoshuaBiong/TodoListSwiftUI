@@ -15,11 +15,11 @@ struct HeaderView: View {
                 .rotationEffect(.degrees(15))
               
             VStack{
-                Text("Hain")
+                Text("To Do List ")
                     .bold()
                     .font(.system(size: 50))
                     .foregroundColor(.white)
-                Text("Tracking things out")
+                Text("Get things done!")
                     .foregroundColor(.white)
                     .font(.system(size: 30))
             }.padding(.top, 30)
