@@ -10,7 +10,7 @@ Which is I found way more efficient to develop an app than the Flutter from goog
 
 Now I am kinda familiar with its UI and just need to improve my writing on the logical side 
 
-# Things needs to get 
+# Things needs to get done
 Authentication
 Login 
 Register
@@ -23,3 +23,20 @@ deleting Item
 Login and Register  Functionality
 #Done
  Log and Register UI 
+ 
+ #Error encountered
+    "that is not in a visible window requires afterScreenUpdates:YES." when changin to view
+#Error Solution
+
+.autocapilazition .autoCorrectionDisabled text modifier resolve the error
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ #Next thing to be done
+  RegisterView UI
+ 

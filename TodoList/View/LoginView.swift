@@ -18,28 +18,26 @@ struct LoginView: View {
         NavigationView{
             VStack{
                 //Header
-                HeaderView()
+                HeaderView(title: "Login", subtitle: "Get things done", angle: 15, forgroundColor: .pink)
+            
                 //Login Form
                 Form {
                     TextField("Email Address", text: $email)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
+                        .autocorrectionDisabled()
+                        .autocapitalization(.none)
                     SecureField("Password", text: $password)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
+                        .autocorrectionDisabled()
+                        .autocapitalization(.none)
                     
-                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                        ZStack{
-                            RoundedRectangle(cornerRadius: 10)
-                                .foregroundColor(.blue)
-                            Text("Log In")
-                                .foregroundColor(.white)
-                                .bold()
-                                .font(.system(size: 22))
-                        }
+                    TLButton(title: "Login", background: .blue)
+                    {
+                        //Action to Login
                     }
-                    ).padding()
+                        .padding()
                     
-                }
-                //Create Account
+                }.offset(y:-60)                //Create Account
                 VStack{
                     Text("New around here?")
                     NavigationLink("Create an account", destination: RegisterView())
