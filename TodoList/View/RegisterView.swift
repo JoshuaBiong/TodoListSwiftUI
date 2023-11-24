@@ -16,7 +16,7 @@ struct RegisterView: View {
     var body: some View {
         VStack{
             //Header
-            HeaderView(title: "Register", subtitle: "Start orginizing todos", angle: -15, forgroundColor: .orange).offset(y:-20)
+            HeaderView(title: "Register", subtitle: "Start orginizing todos", angle: -15, forgroundColor: .orange).offset(y:-25)
             
             // Register Form
             Form {
@@ -26,20 +26,18 @@ struct RegisterView: View {
                     .autocapitalization(.none)
                 TextField("Email Address", text: $email)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
-                
                 .autocorrectionDisabled()
                 .autocapitalization(.none)
                 SecureField("Password", text: $password)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
-                
                 .autocorrectionDisabled()
                 .autocapitalization(.none)
-                TLButton(title: "Create account", background: .green){
+                TLButton(title: "Create an account", background: .green){
                     //Register action button
                 }.padding()
                 
                                 
-            }.offset(y:-77)
+            }.offset(y:-90)
             Spacer()
         }
     }
