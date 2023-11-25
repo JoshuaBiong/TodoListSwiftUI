@@ -37,7 +37,7 @@ struct LoginView: View {
                         .autocapitalization(.none)
                     
                     TLButton(title: "Login", background: .blue){
-                        viewModel.login()
+                        viewModel.login() 
                     }
                         .padding()
                     
