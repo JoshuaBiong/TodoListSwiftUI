@@ -21,22 +21,24 @@ deleting Item
 
 # Process
 Login and Register  Functionality
+Creating new account and store it to firestore
+
 #Done
  Log and Register UI 
+ Login valudation functionalities
  
  #Error encountered
     "that is not in a visible window requires afterScreenUpdates:YES." when changin to view
+    validation error did not show up
 #Error Solution
-
 .autocapilazition .autoCorrectionDisabled text modifier resolve the error
+ Add action to LoginViewViewModel
  
  
  
  
- 
- 
- 
- 
+
  #Next thing to be done
   RegisterView UI
+  RegusterViewViewModel creating new account
  
