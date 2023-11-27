@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A60DE3702B0F53D1009E14ED /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60DE36F2B0F53D1009E14ED /* TLButton.swift */; };
+		A61C0E202B15137B004F2B4E /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61C0E1F2B15137B004F2B4E /* Extension.swift */; };
 		A6448B972B0D9E7A0099FDA7 /* TodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6448B962B0D9E7A0099FDA7 /* TodoListApp.swift */; };
 		A6448B992B0D9E7A0099FDA7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6448B982B0D9E7A0099FDA7 /* MainView.swift */; };
 		A6448B9B2B0D9E7B0099FDA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6448B9A2B0D9E7B0099FDA7 /* Assets.xcassets */; };
@@ -60,6 +61,7 @@
 
 /* Begin PBXFileReference section */
 		A60DE36F2B0F53D1009E14ED /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		A61C0E1F2B15137B004F2B4E /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		A6448B932B0D9E7A0099FDA7 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6448B962B0D9E7A0099FDA7 /* TodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListApp.swift; sourceTree = "<group>"; };
 		A6448B982B0D9E7A0099FDA7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 				A6448B962B0D9E7A0099FDA7 /* TodoListApp.swift */,
 				A6448BDB2B0DAA1E0099FDA7 /* GoogleService-Info.plist */,
 				A6448B9A2B0D9E7B0099FDA7 /* Assets.xcassets */,
+				A61C0E1F2B15137B004F2B4E /* Extension.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				A6448BF72B0DB9A50099FDA7 /* ProfileViewViewModel.swift in Sources */,
 				A6448BF92B0DB9B00099FDA7 /* RegisterViewViewModel.swift in Sources */,
 				A6448BF12B0DB96B0099FDA7 /* User.swift in Sources */,
+				A61C0E202B15137B004F2B4E /* Extension.swift in Sources */,
 				A6448C0B2B0DBD760099FDA7 /* TodoListItemView.swift in Sources */,
 				A6448C012B0DB9ED0099FDA7 /* TodoListViewViewModel.swift in Sources */,
 				A6448B972B0D9E7A0099FDA7 /* TodoListApp.swift in Sources */,

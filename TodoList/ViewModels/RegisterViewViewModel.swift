@@ -36,6 +36,11 @@ class RegisterViewViewModel : ObservableObject {
                            username: username,
                            email : email,
                            joined: Date().timeIntervalSince1970)
+        
+        let db =  Firestore.firestore()
+        db.collection("users")
+            .document(id)
+            .setData(newUser.asDictionary())
     }
     
     //Resgistare Validation
@@ -60,7 +65,5 @@ class RegisterViewViewModel : ObservableObject {
         return true
         
     }
-    
-    
     
 }
