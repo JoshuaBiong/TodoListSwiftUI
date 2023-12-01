@@ -5,6 +5,7 @@
 //  Created by Joshua P. Biong on 11/22/23.
 //
 import FirebaseCore
+import FirebaseAuth
 import SwiftUI
 
 

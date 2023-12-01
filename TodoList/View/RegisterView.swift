@@ -32,6 +32,7 @@ struct RegisterView: View {
                 .autocapitalization(.none)
                 TLButton(title: "Create an account", background: .green){
                     //Register action button
+                    viewModel.register()
                 }.padding()
                 
                                 

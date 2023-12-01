@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "AA8DD6F5-B442-4BB9-AB2F-B6AFECF6E7E9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2DF99256-BAFE-403E-965A-D64F5F3BBC6A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TodoList/View/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "MainView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "2DF99256-BAFE-403E-965A-D64F5F3BBC6A - dd42b754dcf8c7f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TodoList.MainView.body.getter : some"
+                  moduleName = "TodoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/night/Desktop/CODE/iOS/TodoList/TodoList/View/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "2DF99256-BAFE-403E-965A-D64F5F3BBC6A - c85f94c21bef3dcb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TodoList.MainView.init() -&gt; TodoList.MainView"
+                  moduleName = "TodoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/night/Desktop/CODE/iOS/TodoList/TodoList/View/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "2DF99256-BAFE-403E-965A-D64F5F3BBC6A - 901c3c3851f78abc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TodoList.MainView.init(viewModel: @autoclosure () -&gt; TodoList.MainViewViewModel) -&gt; TodoList.MainView"
+                  moduleName = "TodoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/night/Desktop/CODE/iOS/TodoList/TodoList/View/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
