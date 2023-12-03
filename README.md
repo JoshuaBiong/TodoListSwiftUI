@@ -41,4 +41,8 @@ Creating new account and store it to firestore
  #Next thing to be done
   RegisterView UI
   RegusterViewViewModel creating new account
- 
+ #NEED TO FIX!
+
+creating new account functionality
+firebase connection
+firebase Auth is not responsding to the REGISTERVIEWVIEWMODEL
